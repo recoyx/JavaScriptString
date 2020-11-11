@@ -1,0 +1,21 @@
+{
+  "name": "com.recoyxgroup.javascript.string",
+  "version": "1.0.0",
+  "description": "More String manipulations",
+  "main": "library.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "string",
+    "string-formatting",
+    "string-similarity"
+  ],
+  "author": "hydroper",
+  "repository": "https://gitlab.com/recoyx/JavaScriptString",
+  "license": "ISC",
+  "dependencies": {
+    "string-similarity": "^4.0.2"
+  }
+}
