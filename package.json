@@ -13,7 +13,7 @@
     "string-similarity"
   ],
   "author": "hydroper",
-  "repository": "https://gitlab.com/recoyx/JavaScriptString",
+  "repository": "https://github.com/recoyx/JavaScriptString",
   "license": "ISC",
   "dependencies": {
     "string-similarity": "^4.0.2"
