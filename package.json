@@ -1,6 +1,6 @@
 {
   "name": "com.recoyxgroup.javascript.string",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "More String manipulations",
   "main": "library.js",
   "type": "module",
@@ -12,8 +12,8 @@
     "string-formatting",
     "string-similarity"
   ],
-  "author": "hydroper",
-  "repository": "https://github.com/recoyx/JavaScriptString",
+  "author": "Klaider",
+  "repository": "https://github.com/Recoyx/JavaScriptString",
   "license": "ISC",
   "dependencies": {
     "string-similarity": "^4.0.2"

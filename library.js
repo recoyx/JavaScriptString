@@ -22,3 +22,5 @@ export class String {
         return StringSimilarity.compareTwoStrings(arg1, arg2);
     }
 }
+
+export default String;
