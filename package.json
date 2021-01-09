@@ -1,6 +1,6 @@
 {
   "name": "com.recoyxgroup.javascript.string",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "More String manipulations",
   "main": "library.js",
   "type": "module",

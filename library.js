@@ -1,10 +1,8 @@
 import StringSimilarity from 'string-similarity';
 
-const JSString = (typeof global == 'object' ? global : window).String;
-
-export class String {
+export class StringHelpers {
     static apply(str, ...rest) {
-        str = JSString(str);
+        str = String(str);
         while (rest[0] instanceof Array) rest = rest[0];
         var variables = undefined;
         if (rest.length == 1 && !(rest[0] instanceof Array)) variables = rest[0];
@@ -19,8 +17,12 @@ export class String {
     }
 
     static eqv(arg1, arg2) {
+        return StringHelpers.equivalenceBetween(arg1, arg2);
+    }
+
+    static equivalenceBetween(arg1, arg2) {
         return StringSimilarity.compareTwoStrings(arg1, arg2);
     }
 }
 
-export default String;
+export default StringHelpers;
